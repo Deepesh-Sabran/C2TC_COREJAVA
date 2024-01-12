@@ -1,4 +1,4 @@
-package day02;
+package com.amc.day02;
 
 public class Customer {
 	private int customerId;
