@@ -14,8 +14,8 @@ public class Synchronized {
 			// both are using shared resource so we need to join them
 			team1.join();
 			team2.join();
-		} catch(Exception e) {
-			
+		} catch(InterruptedException e) {
+			System.out.println(e.getMessage());
 		}
 		
 		System.out.println(counter.cakeCount);

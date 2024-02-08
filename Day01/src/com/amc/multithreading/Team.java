@@ -13,5 +13,4 @@ public class Team implements Runnable{
 			counter.increment();
 		}
 	}
-	
 }
