@@ -2,6 +2,7 @@ package com.amc.exception;
 
 public class NestedTry {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
